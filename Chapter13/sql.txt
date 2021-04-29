@@ -1,0 +1,37 @@
+#
+# Table structure for table `pics_europe`
+#
+
+DROP TABLE IF EXISTS pics_europe;
+CREATE TABLE pics_europe (
+  ID smallint(6) NOT NULL auto_increment,
+  Title varchar(255) NOT NULL default '',
+  Description mediumtext,
+  Image varchar(255) default NULL,
+  Path_zip varchar(255) default NULL,
+  Path_sit varchar(255) default NULL,
+  Cost smallint(6) default NULL,
+  DemoURL varchar(255) default NULL,
+  popWidth smallint(11) default NULL,
+  popHeight smallint(6) default NULL,
+  PRIMARY KEY  (ID),
+  UNIQUE KEY ID (ID)
+) TYPE=MyISAM;
+
+#
+# Dumping data for table `pics_europe`
+#
+
+INSERT INTO pics_europe (ID, Title, Description, Image, Path_zip, Path_sit, Cost, DemoURL, popWidth, popHeight) VALUES (1,'Idar-Oberstein','Image taken across the street from the Church of the Rock. 35mm Canon EOS RebelX','photos/thumb_Idar-Oberstein.jpg','Idar-Oberstein.zip','Idar-Oberstein.sit','','Idar-Oberstein.html',249,300);
+
+INSERT INTO pics_europe (ID, Title, Description, Image, Path_zip, Path_sit, Cost, DemoURL, popWidth, popHeight) VALUES (2,'Luxemburg Castle','Historic Castle outside of Luxemburg\'s city walls. 35mm Canon EOS RebelX.','photos/thumb_Luxemburg_Castle.jpg','Luxemburg_Castle.zip','Luxemburg_Castle.sit','','Luxemburg_Castle.html',249,300);
+
+INSERT INTO pics_europe (ID, Title, Description, Image, Path_zip, Path_sit, Cost, DemoURL, popWidth, popHeight) VALUES (3,'Face in Luxemburg','This face was above a business entrance in downtown Luxemburg. 35mm Canon EOS RebelX.','photos/thumb_Luxemburg_Face.jpg','Luxemburg_Face.zip','Luxemburg_Face.sit',5,'Luxemburg_Face.html',249,300);
+
+INSERT INTO pics_europe (ID, Title, Description, Image, Path_zip, Path_sit, Cost, DemoURL, popWidth, popHeight) VALUES (4,'Luxemburg Street','One of the many side streets in Luxemburg. 35mm Canon EOS RebelX.','photos/thumb_Luxemburg_Street.jpg','Luxemburg_Street.zip','Luxemburg_Street.sit','','Luxemburg_Street.html',249,300);
+
+INSERT INTO pics_europe (ID, Title, Description, Image, Path_zip, Path_sit, Cost, DemoURL, popWidth, popHeight) VALUES (5,'Strassburg','This image was taken under a bridge near the market in the Frence town of Strassburg. 35mm Cannon EOS RebelX.','photos/thumb_Strassburg.jpg','Strassburg.zip','Strassburg.sit','','Strassburg.html',249,300);
+
+INSERT INTO pics_europe (ID, Title, Description, Image, Path_zip, Path_sit, Cost, DemoURL, popWidth, popHeight) VALUES (6,'Strassburg Tower','This image was taken from the water taxi near the dam in Strassburg, Frace. 35mm Canon EOS RebelX.','photos/thumb_Strassburg_Tower.jpg','Strassburg_Tower.zip','Strassburg_Tower.sit','','Strassburg_Tower.html',249,300);
+
+INSERT INTO pics_europe (ID, Title, Description, Image, Path_zip, Path_sit, Cost, DemoURL, popWidth, popHeight) VALUES (7,'Trier Ruins','This image was taken of the roman ruins found in the center of Trier, Germany. 35mm Canon EOS RebelX.','photos/thumb_Trier_Ruins.jpg','Trier_Ruins.zip','Trier_Ruins.sit','','Trier_Ruins.html',249,300);

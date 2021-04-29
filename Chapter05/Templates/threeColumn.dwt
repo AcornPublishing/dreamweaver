@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable --> 
+<meta name="Keywords" content="keywords, go, here" />
+<meta name="Description" content="Site description goes here." />
+<link href="../jtphotograpy.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+</head>
+<body>
+<div id="wrapper"> 
+  <table width="700" border="0" cellspacing="0" cellpadding="0" summary="Layout table">
+    <tr> 
+      <td><span class="floatRight"><img src="../assets/shared/jtplogo.gif" alt="Logo" width="210" height="200" /></span> 
+        <ul style="list-style: url(../assets/shared/nav_bullets.gif) outside; margin-top: 25px;">
+          <li class="navListBullet"><span class="navUnderline"><a href="news.html">news</a> 
+            Make a hole and paint with light</span></li>
+          <li class="navListBullet"><span class="navUnderline"><a href="about.html">about</a> 
+            Who is Jerome Turner and why is he showing us his photos?</span></li>
+          <li class="navListBullet"><span class="navUnderline"><a href="folio.html">folio</a> 
+            All photos are categorized according to style and medium</span></li>
+          <li class="navListBullet"><span class="navUnderline"><a href="buy.html">buy</a> 
+            Get your mitts on high-quality prints, delivered to your doorstep</span></li>
+          <li class="navListBullet"><span class="navUnderline"><a href="contact.html">contact</a> 
+            If you hate the pictures, I guess I should know</span></li>
+        </ul>
+        <form style="padding-left: 40px; margin: 0px;" name="navForm">
+          <select name="navLinks">
+            <option selected>Quick navigation</option>
+            <option>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</option>
+            <option value="news.html"> News</option>
+            <option>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</option>
+            <option value="about.html"> About</option>
+            <option>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</option>
+            <option value="folio.html"> Folio</option>
+            <option value="folio2.html"> - Sub page</option>
+            <option value="folio2.html"> - Sub page</option>
+            <option>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</option>
+            <option value="buy.html"> Buy</option>
+            <option>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</option>
+            <option value="contact.html"> Contact</option>
+          </select>
+          <input type="button" name="go" value="Go!" style="border: 1px solid #666; background-color: #fff;" onClick="window.location=document.navForm.navLinks.options[document.navForm.navLinks.selectedIndex].value">
+        </form></td>
+    </tr>
+    <tr class="rowgray"> 
+      <td><span class="floatRight" style="padding-right: 5px;"><strong>JEROME&gt;TURNER&gt;PHOTOGRAPHY</strong></span><strong><strong><!-- TemplateBeginEditable name="documentTitle" --><strong><strong><span class="copyPadding">TITLE</span></strong></strong><!-- TemplateEndEditable --></strong></strong></td>
+    </tr>
+    <tr> 
+      <td> <table width="700" border="0" cellspacing="0" cellpadding="0" summary="Internal table">
+          <tr> 
+            <td class="copyPadding"><!-- TemplateBeginEditable name="columnOneContent" -->columnOneContent<!-- TemplateEndEditable --></td>
+            <td class="cellSpacer"><!-- TemplateBeginEditable name="columnTwoContent" -->columnTwoContent<!-- TemplateEndEditable --></td>
+            <td class="cellSpacer"><!-- TemplateBeginEditable name="columnThreeContent" -->columnThreeContent<!-- TemplateEndEditable --></td>
+          </tr>
+        </table></td>
+    </tr>
+    <tr class="rowgray"> 
+      <td class="center"><a href="news.html">NEWS</a> <a href="about.html">ABOUT</a> 
+        <a href="folio.html">FOLIO</a> <a href="buy.html">BUY</a> <a href="contact.html">CONTACT</a></td>
+    </tr>
+  </table>
+</div>
+<div id="ie5fix">
+  <!-- fix for IE windows -->
+</div>
+</body>
+</html>

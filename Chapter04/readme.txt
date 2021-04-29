@@ -1,0 +1,1 @@
+Remember that for these files to work, you'll have to attach the CSS file to the template once you've loaded them both into your Dreamweaver site directory. See pages 110-111 for instructions on how to attach a CSS document to a template.

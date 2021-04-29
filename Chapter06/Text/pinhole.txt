@@ -1,0 +1,13 @@
+This short tutorial looks at a very basic pinhole camera. I can't remember exactly where I saw the design, maybe from another site but it's a cracker and it works. All you'll need for this is two plastic film canisters (the kind that 35 mm film comes in), a scalpel and some sticky tape - and of course some standard multi-grade black-and-white photographic paper. 
+
+First take the lid off one of the canisters and slice the bottom off.
+
+Then cut a 5mm section from the center so it looks like the piece in the picture on the right. 
+
+In the dark apply a piece of rolled over tape to the back of a 3cm by 3cm piece of photographic paper (make sure it's not on the light sensitive shiny side)
+
+Put the pieces together (all in the dark remember) as shown in the animation.
+
+Finally rotate the 'shutter' until it covers the hole and you're ready to step out and take a photo.
+
+Operate the camera by holding steadily on a surface with one finger and rotating the shutter to expose the paper for a few seconds before sliding closed again. 
